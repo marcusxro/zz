@@ -37,7 +37,7 @@ class Router extends Component {
       case '/thirdpage':
         return <Thirdpage />
       default:
-        return <div>404 - Not Found</div>;
+        return <div>404 - Not Founds</div>;
     }
   }
 }
