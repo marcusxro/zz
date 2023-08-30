@@ -6,7 +6,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
 }
 body {
   background-color: #efefef;
@@ -108,7 +109,7 @@ header {
   font-weight: bolder;
   mix-blend-mode: difference;
   z-index: 9999;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Druk Wide Bold Regular";
 }
 .firstAnch, .secAnch {
   overflow: hidden;
@@ -891,5 +892,4 @@ html.lenis {
     line-height:0%;
     overflow: hidden;
 }
-
 

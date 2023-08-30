@@ -26,6 +26,7 @@ import { resetYaxis } from '../comp/landingText';
 
 
 export const Home = () => {
+  window.scrollTo(0, 0)
   document.title = "Marcus S."
   //lenis
   const lenis = new Lenis()

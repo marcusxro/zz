@@ -31,6 +31,7 @@ const Thirdpage = () => {
   requestAnimationFrame(raf)
 
   useEffect(() => {
+    window.scrollTo(0, 0)
     document.title = "LEXICON | CONTENT"
     gsap.registerPlugin(ScrollTrigger)
     const text = new SplitType('.firstPageDesc', {

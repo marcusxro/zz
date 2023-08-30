@@ -10,7 +10,7 @@ import LowerFooter from '../comp/lowerFooter'
 import ScrollTrigger from 'gsap/ScrollTrigger';
 
 export const About = () => {
-
+  window.scrollTo(0, 0)
   const hoverTxt = document.querySelectorAll('.words')
   
   hoverTxt.forEach((n) => {
@@ -30,6 +30,7 @@ export const About = () => {
   requestAnimationFrame(raf)
 
   useEffect(() => {
+    window.scrollTo(0, 0)
     document.title = "ABOUT"
     gsap.registerPlugin(ScrollTrigger)
     const text = new SplitType('.staggs', { types: 'words, chars' })

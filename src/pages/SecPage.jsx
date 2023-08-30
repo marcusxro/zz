@@ -31,6 +31,7 @@ const Secpage = () => {
   requestAnimationFrame(raf)
 
   useEffect(() => {
+    window.scrollTo(0, 0)
     document.title = "FORCAST | CONTENT"
     gsap.registerPlugin(ScrollTrigger)
     const text = new SplitType('.firstPageDesc', {

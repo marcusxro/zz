@@ -28,6 +28,7 @@ const Firstpage = () => {
   requestAnimationFrame(raf)
 
   useEffect(() => {
+    window.scrollTo(0, 0)
     gsap.registerPlugin(ScrollTrigger)
     const text = new SplitType('.firstPageDesc', {
       types: 'words, chars',
